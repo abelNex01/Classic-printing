@@ -1029,6 +1029,7 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
 .services .service-item {
   background-color: var(--surface-color);
   text-align: center;
@@ -1036,6 +1037,7 @@ section,
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
+  border-radius: 20px;
 }
 
 .services .service-item .icon {
@@ -1084,7 +1086,7 @@ section,
   clip-path: inset(0);
 }
 
-.call-to-action video {
+.call-to-action img {
   position: fixed;
   top: 0;
   left: 0;
